@@ -7,6 +7,7 @@ import java.util.Random;
 import java.util.Set;
 import java.util.UUID;
 
+import spacesettlers.clients.TeamClient;
 import spacesettlers.actions.AbstractAction;
 import spacesettlers.actions.DoNothingAction;
 import spacesettlers.actions.MoveAction;
@@ -29,7 +30,7 @@ import spacesettlers.utilities.Position;
  * @author scho3916
  *
  */
-public class RandomTeamClient extends TeamClient {
+public class MyClient extends TeamClient {
 	HashSet<SpacewarGraphics> graphics;
 	boolean fired = false;
 	
